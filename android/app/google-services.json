@@ -12,7 +12,20 @@
           "package_name": "com.example.smart_pill_care"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "874339060230-f1kkmf35odppt8o3ub3qg0b91toi6o13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_pill_care",
+            "certificate_hash": "b482b0b6bccf31b6d8d44df6117abc9f3269ce76"
+          }
+        },
+        {
+          "client_id": "874339060230-tb62lcbtu2piekahufunpoo115cp6ql9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCwsLyXJoxlOvhH0W1WKu0Wgqg2bXfqlCk"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874339060230-tb62lcbtu2piekahufunpoo115cp6ql9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "874339060230-fvuig3paks9m2ml80hdvno2cdop1v8re.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartpillcare"
+              }
+            }
+          ]
         }
       }
     }

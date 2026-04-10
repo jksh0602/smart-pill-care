@@ -12,10 +12,10 @@ dependencies:
     sdk: flutter
 
   # Firebase - Windows 호환 버전
-  firebase_core: 2.13.0
-  firebase_auth: 4.6.0
-  cloud_firestore: 4.7.0
-  firebase_messaging: 14.5.0
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  cloud_firestore: ^6.0.3
+  firebase_messaging: ^16.0.3
 
   # 상태관리
   provider: ^6.1.1

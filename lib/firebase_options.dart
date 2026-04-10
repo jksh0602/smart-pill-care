@@ -41,13 +41,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBuXD_-4nMKlwPHl6jL4g8l6jDeXIVNh1E',
-    appId: '1:687971242844:web:78c67c027f331f33ee6799',
-    messagingSenderId: '687971242844',
-    projectId: 'smart-pill-care',
-    authDomain: 'smart-pill-care.firebaseapp.com',
-    storageBucket: 'smart-pill-care.firebasestorage.app',
-    measurementId: 'G-HS5YF7CM5T',
+      apiKey: "AIzaSyD6qUZcVElR3bON1h7Rd0wzFmllEWsv9NM",
+      authDomain: "smart-pill-care-18b09.firebaseapp.com",
+      projectId: "smart-pill-care-18b09",
+      storageBucket: "smart-pill-care-18b09.firebasestorage.app",
+      messagingSenderId: "874339060230",
+      appId: "1:874339060230:web:34e9ab4e4aa7e0e7a61187",
+      measurementId: "G-J4VBZGQPJD",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -59,30 +59,31 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBG90o5oJgP5lJAl5q-7N8qrtleW5NkPxM',
-    appId: '1:687971242844:ios:64c3cab3ec0db2eeee6799',
-    messagingSenderId: '687971242844',
-    projectId: 'smart-pill-care',
-    storageBucket: 'smart-pill-care.firebasestorage.app',
-    iosBundleId: 'com.example.smartPillCare',
+    apiKey: 'AIzaSyDi6snh2P9FBuWkVZBxgPs2uu9BQoIddzo',
+    appId: '1:874339060230:ios:c64b4529a110de1da61187',
+    messagingSenderId: '874339060230',
+    projectId: 'smart-pill-care-18b09',
+    storageBucket: 'smart-pill-care-18b09.firebasestorage.app',
+    iosBundleId: 'com.example.smartpillcare',
   );
 
+
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBG90o5oJgP5lJAl5q-7N8qrtleW5NkPxM',
-    appId: '1:687971242844:ios:64c3cab3ec0db2eeee6799',
-    messagingSenderId: '687971242844',
-    projectId: 'smart-pill-care',
-    storageBucket: 'smart-pill-care.firebasestorage.app',
-    iosBundleId: 'com.example.smartPillCare',
+    apiKey: 'AIzaSyDi6snh2P9FBuWkVZBxgPs2uu9BQoIddzo',
+    appId: '1:874339060230:ios:c64b4529a110de1da61187',
+    messagingSenderId: '874339060230',
+    projectId: 'smart-pill-care-18b09',
+    storageBucket: 'smart-pill-care-18b09.firebasestorage.app',
+    iosBundleId: 'com.example.smartpillcare',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBuXD_-4nMKlwPHl6jL4g8l6jDeXIVNh1E',
-    appId: '1:687971242844:web:39af39fdd5412738ee6799',
-    messagingSenderId: '687971242844',
-    projectId: 'smart-pill-care',
-    authDomain: 'smart-pill-care.firebaseapp.com',
-    storageBucket: 'smart-pill-care.firebasestorage.app',
-    measurementId: 'G-JZJJCK46DY',
+    apiKey: 'AIzaSyD6qUZcVELR3bON1h7Rd0wzFmllEWsv9NM',
+    appId: '1:874339060230:web:63a668b2aceb402aa61187',
+    messagingSenderId: '874339060230',
+    projectId: 'smart-pill-care-18b09',
+    authDomain: 'smart-pill-care-18b09.firebaseapp.com',
+    storageBucket: 'smart-pill-care-18b09.firebasestorage.app',
+    measurementId: 'G-Q0B50Z31E2',
   );
 }
