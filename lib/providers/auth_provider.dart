@@ -95,11 +95,29 @@ class AuthProvider extends ChangeNotifier {
   }) async {
     _setLoading(true);
     try {
-      _currentUser = await _service.signIn(email: email, password: password);
+      debugPrint('signIn start: $email');
+
+      _currentUser = await _service.signIn(
+        email: email,
+        password: password,
+      );
+
+      debugPrint('signIn success user: $_currentUser');
+      debugPrint('signIn user role: ${_currentUser?.role}');
+
+      if (_currentUser == null) {
+        _status = AuthStatus.unauthenticated;
+        _errorMessage = '사용자 정보를 찾을 수 없습니다. Firestore users 문서를 확인하세요.';
+        return false;
+      }
+
       _status = AuthStatus.authenticated;
       _errorMessage = null;
       return true;
-    } catch (e) {
+    } catch (e, st) {
+      debugPrint('signIn error: $e');
+      debugPrint('signIn stackTrace: $st');
+
       _errorMessage = _parseError(e);
       return false;
     } finally {
@@ -153,6 +171,6 @@ class AuthProvider extends ChangeNotifier {
     if (msg.contains('user-not-found')) return '등록되지 않은 이메일입니다.';
     if (msg.contains('weak-password')) return '비밀번호는 6자 이상이어야 합니다.';
     if (msg.contains('invalid-email')) return '이메일 형식이 올바르지 않습니다.';
-    return '오류가 발생했습니다. 다시 시도해 주세요.';
+    return '오류: $msg';
   }
 }
