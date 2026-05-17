@@ -2,24 +2,43 @@
 .dart_tool\package_config.json
 
 .dart_tool\package_graph.json
+
 .idea\libraries\Dart_SDK.xml
+
 .idea\workspace.xml
+
 android\app\src\main\AndroidManifest.xml
+
 android\app\build.gradle.kts
+
 android\app\google-services.json
+
 android\gradle.properties
+
 android\local.properties
+
 ios\Runner\GoogleService-Info.plist
+
 lib\providers\auth_provider.dart
+
 lib\screens\guardian\guardian_dashboard_screen.dart
+
 lib\firebase_options.dart
+
 lib\main.dart
+
 linux\flutter\ephemeral\.plugin_symlinks
+
 windows\flutter\ephemeral\.plugin_symlinks
+
 windows\flutter\generated_plugin_registrant.cc
+
 windows\flutter\generated_plugins.cmake
+
 .flutter-plugins-dependencies
+
 smart_pill_care.iml
+
 
 
 # 스마트 복약 관리 앱 - 프로젝트 가이드
